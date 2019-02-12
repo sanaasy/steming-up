@@ -1,2 +1,2 @@
 # steming-up
-All the code I created during my time at STEMing UP.
+This is the demo for the website for my product pitch.
