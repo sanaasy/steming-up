@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head><link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Fredoka One';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg {
+    background-image: url("http://stylecartel.com/wp-content/uploads/2017/11/Knixteen-Halloween-Candy-1D.jpg");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 50;
+    margin: 0;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+<label for="psw"><b>Password</b></label>
+    outline: none;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 3;
+}
+</style>
+</head>
+<body>
+
+<div class="bg">
+  <form action="/action_page.php">
+    <div class="container">
+      <h1>KnixTrack Login</h1>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+      <label for="confirmpassword"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Confirm Password" name="confirmpassword" required>
+      <button type="submit" class="btn">Sign Up</button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
